@@ -1,13 +1,7 @@
-package main
+package bubble
 
-import (
-	"fmt"
-	"math/rand"
-	"time"
-)
-
-//SortBubble function to implement bubble sort
-func SortBubble(data []int) {
+//Sort function to implement bubble sort
+func Sort(data []int) {
 	n := len(data)
 
 	for i := 0; i < n-1; i++ {
@@ -17,20 +11,4 @@ func SortBubble(data []int) {
 			}
 		}
 	}
-}
-
-func main() {
-	arraySize := 20
-	maxGenerateNumber := 10
-
-	data := make([]int, arraySize)
-
-	rand.Seed(time.Now().Unix())
-	for d := range data {
-		data[d] = rand.Intn(maxGenerateNumber)
-	}
-
-	fmt.Println("Print source array: ", data)
-	SortBubble(data)
-	fmt.Println("Print after sorting: ", data)
 }
