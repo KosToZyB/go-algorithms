@@ -1,7 +1,7 @@
-package bubble
+package sort
 
-//Sort function to implement bubble sort
-func Sort(data []int) {
+//SortBubble function to implement bubble sort
+func SortBubble(data []int) {
 	n := len(data)
 
 	for i := 0; i < n-1; i++ {

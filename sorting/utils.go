@@ -1,7 +1,6 @@
-package utils
+package sort
 
 func Equal(a, b []int) bool {
-
 	if a == nil && b == nil {
 		return true
 	}
