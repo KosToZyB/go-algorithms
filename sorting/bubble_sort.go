@@ -1,4 +1,4 @@
-package sort
+package algorithm
 
 //SortBubble function to implement bubble sort
 func SortBubble(data []int) {

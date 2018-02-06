@@ -1,5 +1,6 @@
-package sort
+package algorithm
 
+//Equal function to implement equal two slice with []int
 func Equal(a, b []int) bool {
 	if a == nil && b == nil {
 		return true

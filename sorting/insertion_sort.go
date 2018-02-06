@@ -1,4 +1,4 @@
-package sort
+package algorithm
 
 //SortInsertion function to implement insertion sort
 func SortInsertion(data []int) {
